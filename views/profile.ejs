@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+          OAUTH login
+        </title>
+    </head>
+    <body>
+       <nav>
+           <ul>
+               <li><a href="/">Homepage</a></li>
+               <li><a href="/sd/logout">Logout</a></li>
+           </ul>
+       </nav>
+       <br/>
+       <h1>WELCOME TO YOUR PROFILE</h1>
+       <br/>
+       <h3>Name:<%= user.username %></h3>
+       <h2>Profile pic: <img src="<%= user.pic %>"/></h2>
+    </body>
+</html>
